@@ -259,7 +259,17 @@
   display: flex;
   align-items: center;
   margin-left: 5%;
+  margin-right: 5%;
   margin-top: 3%;
+  justify-content: space-between;
+}
+
+.fav-align-left {
+  display: flex;
+}
+
+.fav-align-right {
+  display: flex;
 }
 
 .feather-git-branch {
@@ -276,15 +286,18 @@
 
 .JavaScript {
   font-size: 12px;
-  margin-left: 60%;
   font-family: MerriweatherSans-Light;
 }
 
 .js {
-  width: 50px;
-  height: 50px;
+  width: 12px;
+  height: 12px;
   border-radius: 50%;
+  margin-right: 8px;
+  margin-top: 2px;
   background-color: rgb(235, 235, 88);
+  border-style:double;
+  border-color: #837E9F;
 }
 
 .bloco-8 {
@@ -409,12 +422,18 @@
 
 .tags {
   display: flex;
+  align-items: center;
   text-align: left;
   margin-left: 11%;
   margin-top: 5px;
   font-size: 9px;
   font-family: MerriweatherSans-Light;
 }
+
+.tag {
+  margin-right: 10px;
+}
+
 
 .avatar-2 {
   display: flex;
